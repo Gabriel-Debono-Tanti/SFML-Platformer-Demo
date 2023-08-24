@@ -1,6 +1,4 @@
 #include <SFML/Graphics.hpp>
-#include "Biome.hpp"
-#include "Object.hpp"
 #include "Player.hpp"
 #include "Entity.hpp"
 #include <fstream>
