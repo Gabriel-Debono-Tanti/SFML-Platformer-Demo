@@ -7,7 +7,7 @@ FetchContent_Declare(SFML
     GIT_TAG 2.6.x)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(Platformer src/main.cpp)
+add_executable(Platformer src/Main.cpp)
 target_link_libraries(Platformer PRIVATE sfml-graphics)
 target_compile_features(Platformer PRIVATE cxx_std_17)
 if (WIN32 AND BUILD_SHARED_LIBS)
